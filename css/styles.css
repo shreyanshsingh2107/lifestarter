@@ -1,0 +1,185 @@
+ /* Base */
+section {
+    padding: 5em 0;
+  }
+  
+  footer {
+    padding: 3em 0;
+  }
+
+/* Mod 2.3 Apply style on body html and navbar */
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+  }
+  .navbar a {
+    font-size: 16px;
+  }
+/* Mod 3.2 Apply style*/
+  .main-heading {
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 500%;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+  .sec-main {
+    background-color:red;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .sec-main:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+  }
+  .main-heading {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding: 0;
+    margin: auto;
+    height: 40px;
+    color: #fff;
+    
+  }
+   
+  /* Mod 4.1 Apply Style */
+  .dp img{
+    display:  block;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .sec-about a {
+    color: #000;
+  }
+  .sec-about a {
+    text-decoration: underline;
+  }
+  
+  .sec-about a:hover, .sec-about a:focus {
+    color: #ad0000;
+  }
+  .sec-about p {
+    text-align: center;
+    color:red;
+  }
+  .container > h1 {
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  hr {
+    margin-bottom: 3em;
+    width: 7%;
+    color:  red;
+  }
+
+ /* Mod 5.1 Apply Style */
+ .sec-services {
+  background: red;
+}
+
+.sec-services i {
+  display: block;
+  margin: auto;
+  width: 45px;
+}
+
+.sec-services .fa-paint-brush {
+  width: 64px;
+}
+
+.sec-services .fa-code {
+  width: 68px;
+}
+
+.sec-services h2 {
+  margin: 1em 0;
+}
+.sec-services h2,
+.sec-services p {
+  font-weight: 300;
+  text-align: center;
+}
+.sec-folio .row {
+  margin-bottom: 3em;
+}
+/*Mod 7.1 Apply Style */
+.sec-testimonials {
+  background: black;
+}
+/* Mod 8.1 Apply Style */
+.sec-contact .form-control:focus {
+  border-color: red;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(173, 0, 0, 0.6);
+}
+
+.sec-contact .btn {
+  padding: .5rem 1.75rem;
+  background: #000;
+  font-size: .95rem;
+  color: #fff;
+}
+.sec-contact .btn:hover, .sec-contact .btn:focus {
+  background: red;
+  border-color: #7a0000;
+}
+/*Mod 9.1 Apply Style*/
+footer {
+  background:red;
+}
+
+.soc-media-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.soc-media-ul li:not(:first-child) a {
+  margin-left: 1em;
+}
+
+.soc-media-ul a {
+  display: block;
+  padding: 0.5em .65rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid;
+}
+.soc-media-ul a:hover, .soc-media-ul a:focus {
+  color: #ad0000;
+}
+.navbar {
+  background-color: #f9f9f9;
+}
+.sec-about {
+  background-color: #fff;
+  
+}
+.sec-contact{
+  background-color: #fff;
+}
+.sec-contact .form-control{
+  background-color: wheat;
+}

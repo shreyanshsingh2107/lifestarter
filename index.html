@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lifeSTARTER | Portfolio</title>
+
+    <!-- Ex 1.a Add normalize css, bootstrap 3.3.1 , Open Sans font, font awesome, and make styles.css file in ./css -->
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel='stylesheet' href='./css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'>
+    <link rel='stylesheet' href='./css/font-awesome.min.css'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+
+    <!-- Ex. 1.c Adding meta tag -->
+    <meta name="description"
+        content="IT is a instant creadit cmpany which provids free instant credits to middle and lower class of our society.">
+    <meta name="keywords" content="lifeSTARTER Portfolio">
+    <meta name="author" content="SHREYANSH SINGH">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Mod2.1 Add wrapper class& Make Header-->
+    <div class="wrapper">
+        <header role="header">
+            <!-- Mod 2.2 Add Navigation bar with collapsed mobile view and apply style accordingly -->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+                                data-target=".navbar-collapse" role="button">
+                                <span class="sr-only">Toggle Navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+    
+                            <a href="#" class="navbar-brand">lifeSTARTER</a>
+                        </div>
+    
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav navbar-right js-nav">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <!--<li><a href="#folio">Previous Works</a></li>
+                                <li><a href="#testimonials">Testimonials</a></li>-->
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </header>
+    </div>
+    <!-- Mod 3.1 Add sec-main with id home and apply styles-->
+    <section id="home" class="sec-main">
+        <!--Mod 3.2 Add main-heading and apply styles-->
+        <h1 class="main-heading">“HUSTLE FREE CREDITS.”</h1>
+    </section>
+
+    <!--Mod 4.1 Add sec-about with id home and apply styles-->
+    <section id="about" class="sec-about">
+        <div class="container">
+          <h1>About us</h1>
+          <hr />
+          <div class="row">
+              <div class="col-md-4">
+                <div class="dp">
+                    <img src="./images/life.jpg" alt="Avatar" style="width:300px" >
+                </div>
+              </div>
+              <div class="col-md-8">
+              <p>lifeSTARTER- We deals with the medical emergency of human beings by providing instant credit at lowest opportunity in the form of credit cards known as e-cards and will also provide 24/7 medical coverage.
+              This website will have lowest interest rate as well as no hidden terms and conditions.
+              The main aim of the website is to provide medical security to people </p>
+              <br>
+              
+             
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+    <!--Mod 5.1 Add Services section on md-4 3 colomn-->
+    <section id="services" class="sec-services">
+        <div class="container">
+          <h1>Services</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4">
+              <i class="fa fa-4x fa-credit-card" aria-hidden="true"></i>>
+              <h2 class="h3">E-Cards</h2>
+              <p>We provide e-credit cards for our costumers.</p>
+            </div>
+            <div class="col-sm-4">
+             <i class="fa fa-4x fa-database" aria-hidden="true"></i>
+              <h2 class="h3">Data centralization</h2>
+              <p>we keep your whole medical history safely in our own website.</p>
+            </div>
+            <div class="col-sm-4">
+              <i class="fa fa-4x fa-money" aria-hidden="true"></i>
+              <h2 class="h3">Instant Creadits</h2>
+              <p>We provide our instant creadits to our costumers on their medical emergency without asking much questions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--Mod 6.1 Add portfolio grid and Projects Section-->  
+    <!--<section id="folio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <img src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">                     
+                        <img src="https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <img src="https://unsplash.imgix.net/46/Ov6ZY1zLTWmhPC0wFysP_IMG_2896_edt.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=6518e4df89659818f6c0392175a9c5e6" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <img src="https://unsplash.imgix.net/44/9s1lvXLlSbCX5l3ZaYWP_hdr-1.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=f0a1db79752dbb04ec6d2aab7d17c7b0" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <img src="https://unsplash.imgix.net/46/Ov6ZY1zLTWmhPC0wFysP_IMG_2896_edt.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=6518e4df89659818f6c0392175a9c5e6" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <img src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mod 7.1 Add testimonials section and apply styles-->
+   <!--<section id="testimonials" class="sec-testimonials">
+        <div class="container">
+          <h1>Clients said</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4">
+              <p class="text-center">"Alex did great job when designing our website. It was pleasure to work with him and I'm sure we will hire him again."</p>
+              <p class="text-right">&mdash; Marc Andressen</p>
+            </div>
+    
+            <div class="col-sm-4">
+              <p class="text-center">"Alex proved to be truly creative designer who is able to create just stunning design I immediately fell in love with!"</p>
+              <p class="text-right">&mdash; Emily Cooper</p>
+            </div>
+    
+            <div class="col-sm-4">
+              <p class="text-center">"I have worked with several different people and it always seemed like a pain—luckily I found Alex Devero. Thank you Alex!"</p>
+              <p class="text-right">&mdash; Scott Grubber</p>
+            </div>
+          </div>
+        </div>
+      </section>-->
+    <!-- Mod 8.1 Add Contact Section and style-->
+    <section id="contact" class="sec-contact">
+        <div class="container">
+          <h1>Contact us</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+              <form class="center-block" action="a.txt" method="post">
+                <div class="form-group">
+                  <label class="sr-only" for="inputName">Full name</label>
+                  <input id="inputName" class="form-control" type="text" placeholder="xyz" required />
+                </div>
+                <div class="form-group">
+                  <label for="inputMail" class="sr-only">Email Address</label>
+                  <input id="inputMail" class="form-control" type="email" placeholder="abc@xyz.com" required />
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage" class="sr-only">Your Message</label>
+                  <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-default center-block" type="submit" value="Hire me">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Mod 9.1 Add Footer-->
+    <footer id="footer">
+        <div class="container">
+        
+         
+          
+            <ul class="soc-media-ul">
+            <li>
+              <a href="https://twitter.com/Shreyan51012523" class="fa fa-twitter" target="_blank"></a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/u/0/+AlexDevero" class="fa fa-google-plus" target="_blank"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/shreyansh-singh-b08a41192/" class="fa fa-linkedin" target="_blank"></a>
+            </li>
+           
+            <li>
+              <a href="mailto:shreyanshsingh2107@gmail.com" class="fa fa-envelope"></a>
+            </li>
+            <li>
+              <a href="https://github.com/shreyanshsingh2107" class="fa fa-github"></a>
+            </li>
+          </ul>
+         <ul>
+          
+          
+        </div>
+      </footer>
+    </div>
+    <!-- Ex 1.b  First JQuery then Bootstrap Js 3.3.1 and make a script.js in ./js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
