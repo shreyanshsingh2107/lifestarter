@@ -153,6 +153,7 @@ footer {
 .soc-media-ul {
   display: flex;
   justify-content: center;
+  list-style:none;
 }
 
 .soc-media-ul li:not(:first-child) a {
